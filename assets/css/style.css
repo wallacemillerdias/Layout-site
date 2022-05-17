@@ -1,0 +1,83 @@
+body {
+    background-color: #FFDA6F;
+}
+
+.principal {
+    background-color: #4857AC;
+    margin: 5%;
+    padding: 5%;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+
+.principal .menu-esquerdo {
+    /* background-color: green; */
+    width: 25%;
+
+}
+
+.principal .menu-esquerdo h3 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.principal .menu-esquerdo ul {
+    list-style: none;
+    color: white;
+    margin: o;
+    padding: 0;
+}
+
+.principal .menu-esquerdo a {
+    list-style: none;
+    color: white;
+    margin: o;
+    padding: 0;
+}
+
+.principal .menu-esquerdo .publicidade {
+    /* background-color: rgb(164, 228, 69); */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.3px solid white;
+    margin-right: 30px;
+}
+
+.principal .menu-esquerdo .publicidade h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.principal .menu-esquerdo .publicidade p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /* background-color: aquamarine; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .menu-top {
+    /* background-color: goldenrod; */
+    width: 100%;
+    color: white;
+    height: 40px;
+    display: flex;
+    margin: 0;
+}
+.container .menu-top h5{
+    background-color: rgb(196, 55, 55);
+    text-align: right;
+}
+
+.container .container-img {
+    /* background-color: rgb(219, 23, 72); */
+    width: 100%;
+    flex-wrap: wrap;
+    }
