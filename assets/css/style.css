@@ -31,7 +31,6 @@ body {
 }
 
 .principal .menu-esquerdo a {
-    list-style: none;
     color: white;
     margin: o;
     padding: 0;
@@ -57,23 +56,30 @@ body {
 }
 
 .container {
-    /* background-color: aquamarine; */
+    background-color: aquamarine;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
 .container .menu-top {
-    /* background-color: goldenrod; */
+    background-color: goldenrod;
     width: 100%;
     color: white;
-    height: 40px;
+    /* height: 40px; */
     display: flex;
     margin: 0;
 }
-.container .menu-top h5{
+.container .menu-topo h4{
     background-color: rgb(196, 55, 55);
-    text-align: right;
+    display: inline;
+}
+
+.container .menu-topo h5{
+    background-color: rgb(136, 243, 122);
+    width: 100%;
+    display: inline;
+    
 }
 
 .container .container-img {
