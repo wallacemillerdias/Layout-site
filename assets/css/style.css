@@ -9,7 +9,7 @@ body {
     margin: 5%;
     padding: 5%;
     display: flex;
-    width: 60%;
+    width: 1100px;
     height: 60vh;
     overflow: hidden;
 }
@@ -18,6 +18,7 @@ body {
 .principal .menu-esquerdo {
     /* background-color: green; */
     width: 25%;
+    margin-right: 75px;
 }
 
 .principal .menu-esquerdo h3 {
