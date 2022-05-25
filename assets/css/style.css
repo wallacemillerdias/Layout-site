@@ -1,5 +1,7 @@
 body {
     background-color: #FFDA6F;
+    margin: 0;
+    padding: 0;
 }
 
 .principal {
@@ -7,7 +9,9 @@ body {
     margin: 5%;
     padding: 5%;
     display: flex;
-    /* padding-bottom: 11%; */
+    width: 60%;
+    height: 60vh;
+    overflow: hidden;
 }
 
 
@@ -96,59 +100,64 @@ body {
     /* background-color: rgb(219, 23, 72); */
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 30px;
+    gap: 20px;
 }
 
 .container .container-img .card {
     background-color: white;
-    width: 365px;
+    width: 250px;
     height: 280px;
     display: flex;
     flex-wrap: wrap;
     text-transform: capitalize;
-    justify-content: center;
 }
 
 .container .container-img .card img {
     /* background-color: white; */
-    width: 365px;
+    width: 250px;
     height: 150px;
-
 }
 
-.container .container-img .card h4{
+.container .container-img .card .corpo-card {
+    /* background-color: rgb(65, 64, 7); */
+    padding: 10px;
+}
+
+.container .container-img .card h4 {
     /* background-color: rgb(196, 55, 55); */
     text-transform: capitalize;
-    padding-right: 260px;
-    text-align: left;
-    margin: 10px 20px;
-    width: 40%;
+    padding: 0;
+    margin: 0;
 }
 
 .container .container-img .card .titulo {
     /* background-color: rgb(164, 212, 30); */
-    text-align: left;
-    height: 30px;
 
 }
 
 .container .container-img .card .descricao {
     /* background-color: rgb(121, 23, 235); */
-    padding-right: 90px;
-    text-align: left;
-    margin: 0 15px;
+    color:gray;
+    padding-top: 8px;
+    margin: 0;
+}
+
+.container .container-img .card .rodape-card {
+    /* background-color: coral; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .container .container-img .categoria {
     /* background-color: rgb(46, 120, 189); */
-    padding-right: 150px;
+    width: 50%;
 }
 
 .container .container-img .valor {
     /* background-color: rgb(242, 243, 247); */
-    padding-right: 150px;
-    border:0.4px solid  gray;
-    padding: 0 5px  ;
-    margin-bottom: 15px;
+    border: 0.4px solid rgb(228, 223, 223);
+    border-radius:5px;
+    padding: 5px;
+    color:rgb(177, 172, 172);
 }
