@@ -9,8 +9,9 @@ body {
 
 .principal {
     background-color: #4857AC;
+    background-image: url(../img/bg.png);
     margin: 90px ;
-    padding: 40px 0 150px 40px  ;
+    padding: 60px 0 150px 70px  ;
     display: flex;
     width: 1200px;
     height: 580px;
@@ -22,6 +23,8 @@ body {
     /* background-color: green; */
     width: 25%;
     margin-right: 75px;
+    margin-top: 70px;
+    height: 420px;
 }
 
 .principal .menu-esquerdo h3 {
@@ -47,7 +50,7 @@ body {
 .principal .menu-esquerdo .publicidade {
     /* background-color: rgb(164, 228, 69); */
     color: #ffffff;
-    padding: 10px;
+    padding: 2px 2px 7px 10px ;
     border-radius: 5px;
     border: 0.3px solid #ffffff;
     margin-right: 30px;
@@ -103,7 +106,7 @@ body {
     text-align: right;
     letter-spacing: 2px;
     width: 520px;
-    padding: 10px;
+    padding: 5px;
 }
 .container .menu-topo select {
 background-color: transparent;
