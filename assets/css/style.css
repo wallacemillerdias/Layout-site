@@ -1,17 +1,20 @@
 body {
     background-color: #FFDA6F;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
     margin: 0;
     padding: 0;
 }
 
 .principal {
     background-color: #4857AC;
-    margin: 5%;
+    margin: 90px ;
     padding: 5%;
     display: flex;
-    width: 1100px;
-    height: 60vh;
-    overflow: hidden;
+    width: 1200px;
+    height: 580px;
+
 }
 
 
@@ -22,19 +25,19 @@ body {
 }
 
 .principal .menu-esquerdo h3 {
-    color: white;
+    color: #ffffff;
     text-transform: uppercase;
 }
 
 .principal .menu-esquerdo ul {
     list-style: none;
-    color: white;
+    color: #ffffff;
     margin: o;
     padding: 0;
 }
 
 .principal .menu-esquerdo a {
-    color: white;
+    color: #ffffff;
     margin: 0;
     padding: 0;
     line-height: 30px;
@@ -43,10 +46,10 @@ body {
 
 .principal .menu-esquerdo .publicidade {
     /* background-color: rgb(164, 228, 69); */
-    color: white;
+    color: #ffffff;
     padding: 10px;
     border-radius: 5px;
-    border: 0.3px solid white;
+    border: 0.3px solid #ffffff;
     margin-right: 30px;
     width: 170px;
 }
@@ -79,22 +82,33 @@ body {
 }
 
 .container .menu-topo {
-    /* background-color: goldenrod; */
+    background-color: goldenrod;
     padding-left: 10px;
+    display:flex;
+    width: 780px;
 }
 
 .container .menu-topo h4 {
-    /* background-color: rgb(196, 55, 55); */
-    /* display: inline; */
+    background-color: rgb(196, 55, 55);
     text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #ffffff;
 }
 
 .container .menu-topo p {
-    /* background-color: rgb(136, 243, 122); */
-    display: inline;
+    background-color: rgb(136, 243, 122);
+    font-size: 12px;
+    color: #ffffff;
     text-transform: uppercase;
-    padding-left: 450px;
-    letter-spacing: 5px;
+    text-align: right;
+    letter-spacing: 2px;
+    width: 520px;
+    padding: 10px;
+}
+.container .menu-topo select {
+background-color: transparent;
+margin: 10px 20px 15px 30px;
+color: #ffffff;
 }
 
 .container .container-img {
@@ -105,7 +119,7 @@ body {
 }
 
 .container .container-img .card {
-    background-color: white;
+    background-color: #ffffff;
     width: 250px;
     height: 280px;
     display: flex;
@@ -114,7 +128,7 @@ body {
 }
 
 .container .container-img .card img {
-    /* background-color: white; */
+    /* background-color: #ffffff; */
     width: 250px;
     height: 150px;
 }
@@ -156,7 +170,7 @@ body {
 }
 
 .container .container-img .valor {
-    /* background-color: rgb(242, 243, 247); */
+    background-color: rgb(242, 243, 247);
     border: 0.4px solid rgb(228, 223, 223);
     border-radius:5px;
     padding: 5px;
