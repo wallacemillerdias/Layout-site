@@ -9,6 +9,7 @@ body {
 
 .principal {
     background-color: #4857AC;
+    box-shadow: inset 0 0 1em rgb(30, 30, 29), 0 0 1em rgb(25, 26, 27);
     background-image: url(../img/bg.png);
     margin: 90px ;
     padding: 60px 0 150px 70px  ;
