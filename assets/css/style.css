@@ -33,6 +33,10 @@ body {
     text-transform: uppercase;
 }
 
+.principal .menu-esquerdo h3:hover {
+   color:#6fffa6;
+}
+
 .principal .menu-esquerdo ul {
     list-style: none;
     color: #ffffff;
@@ -46,6 +50,10 @@ body {
     padding: 0;
     line-height: 30px;
     text-decoration: none;
+}
+
+.principal .menu-esquerdo a:hover{
+    color: #6fffa6;
 }
 
 .principal .menu-esquerdo .publicidade {
@@ -90,6 +98,10 @@ body {
     padding-left: 10px;
     display:flex;
     width: 780px;
+}
+
+.container .menu-topo :hover {
+    color: #6fffa6;
 }
 
 .container .menu-topo h4 {
@@ -137,6 +149,15 @@ border: 0.1px solid transparent;
     width: 250px;
     height: 150px;
 }
+
+.container .container-img .card .valor:hover{
+    background-color: coral;
+}
+
+.container .container-img .card img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+ }
 
 .container .container-img .card .corpo-card {
     /* background-color: rgb(65, 64, 7); */
